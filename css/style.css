@@ -17,7 +17,7 @@
 #wrapper-aboutme{
     position: relative;
     width: 480px;
-    left: 160px;
+    left: 100px;
     background-color: gray;
     border-radius: 22px;
     padding: 10px;
@@ -73,7 +73,7 @@
 #wrapper-portafolio{
     position: relative;
     width: 40%;
-    left: 200px;
+    left: 130px;
 }
 #section1 {
     display: flex;

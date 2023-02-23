@@ -17,7 +17,7 @@
 #wrapper-aboutme{
     position: relative;
     width: 480px;
-    left: 80px;
+    left: 160px;
     background-color: gray;
     border-radius: 22px;
     padding: 10px;
@@ -73,7 +73,7 @@
 #wrapper-portafolio{
     position: relative;
     width: 40%;
-    left: 130px;
+    left: 200px;
 }
 #section1 {
     display: flex;
@@ -171,13 +171,13 @@
     color: black;
 }
 
-@media only screen and (min-width: 100px) {
+@media only screen and (min-device-width: 100px) and (max-device-width: 500px){
     #vistas-muestra{
         position: relative;
         display: block;
         color: gray;
         width: 90%;
-        left: 5%;
+        left: 10%;
     }
     
     #wrapperrutaGitHub{

@@ -2,8 +2,6 @@
     border: 0px;
     padding: 0px;
 }
-
-@media only screen and (min-width: 400px) {
 #vistas-muestra{
     position: relative;
     display: block;
@@ -173,7 +171,7 @@
     color: black;
 }
 
-}
+@media only screen and (min-width: 100px) {
     #vistas-muestra{
         position: relative;
         display: block;
@@ -341,3 +339,4 @@
     #section2 > div > div > p {
         color: black;
     }
+}

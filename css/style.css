@@ -2,6 +2,8 @@
     border: 0px;
     padding: 0px;
 }
+
+@media only screen and (min-width: 400px) {
 #vistas-muestra{
     position: relative;
     display: block;
@@ -73,7 +75,7 @@
 #wrapper-portafolio{
     position: relative;
     width: 40%;
-    left: 120px;
+    left: 130px;
 }
 #section1 {
     display: flex;
@@ -171,7 +173,7 @@
     color: black;
 }
 
-@media only screen and (max-width: 400px){
+}
     #vistas-muestra{
         position: relative;
         display: block;
@@ -339,4 +341,3 @@
     #section2 > div > div > p {
         color: black;
     }
-}
